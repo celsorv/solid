@@ -22,7 +22,7 @@ Objetos de uma classe base devem ser **substituíveis por objetos de suas subcla
 ## I – **Interface Segregation Principle** (Princípio da Segregação de Interface)
 Os clientes não devem ser forçados a **depender de interfaces que não utilizam**. Ou seja, interfaces menores e mais específicas são melhores do que interfaces grandes e genéricas.
 
-#### 📠 [Impressora comum herdando Interface de Multifuncional? Mas ela não tem scanner e nem fax!](./src/br/com/crv/solid/isp/README.md)
+#### 📠 [Impressora comum implementando Interface de Multifuncional? Mas ela não tem scanner e nem fax!](./src/br/com/crv/solid/isp/README.md)
 
 ## D – **Dependency Inversion Principle** (Princípio da Inversão de Dependência)
 Módulos de **alto nível** não devem depender de módulos de **baixo nível**. Ambos devem depender de abstrações. Além disso, abstrações não devem depender de detalhes concretos; os detalhes devem depender de abstrações.
